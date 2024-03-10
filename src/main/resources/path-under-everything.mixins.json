@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "pixelperfectionist.path_under_everything.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PathBlock",
+		"Shovel"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

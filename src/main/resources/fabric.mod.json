@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "path-under-everything",
+	"version": "${version}",
+	"name": "Path Under Everything",
+	"description": "Put/Create path blocks under anything!",
+	"authors": [
+		"PixelPerfectionist/Jacob Reich"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/path-under-everything/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pixelperfectionist.path_under_everything.PathUnderEverything"
+		]
+	},
+	"mixins": [
+		"path-under-everything.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
