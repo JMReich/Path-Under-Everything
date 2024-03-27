@@ -3,6 +3,7 @@
 	"package": "pixelperfectionist.path_under_everything.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
+		"DoorBlock",
 		"PathBlock",
 		"Shovel"
 	],
